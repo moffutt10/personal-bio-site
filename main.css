@@ -1,4 +1,42 @@
 body {
-    background-color: firebrick;
-    color: white;
+    background-color: #9c9bb0;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+	margin: 0;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 30px;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	border: 1px solid #b39e9d;
+	background-color: #afb09b;
+}
+
+.nav-links {
+    display: flex;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-bar h2, a {
+    color: #34495e;
+    text-decoration: none;
+	padding: 5px 10px;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+}
+
+.logo {
+    margin: 0 0 0 2%;
+	font-size: 1.45em;
+}
+
+.nav-links a:hover {
+	color: #718daa;
 }
