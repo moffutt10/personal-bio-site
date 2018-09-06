@@ -11,10 +11,10 @@ body {
     justify-content: space-between;
     margin: 0 auto;
     height: 30px;
-	padding-top: .5em;
-	padding-bottom: .5em;
-	border: 1px solid #b39e9d;
-	background-color: #afb09b;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border: 1px solid #b39e9d;
+    background-color: #afb09b;
 }
 
 .nav-links {
@@ -26,17 +26,17 @@ body {
 .nav-bar h2, a {
     color: #34495e;
     text-decoration: none;
-	padding: 5px 10px;
-	text-transform: uppercase;
-	text-align: center;
-	display: block;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
 }
 
 .logo {
     margin: 0 0 0 2%;
-	font-size: 1.45em;
+    font-size: 1.45em;
 }
 
 .nav-links a:hover {
-	color: #718daa;
+    color: #718daa;
 }
