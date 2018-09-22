@@ -40,3 +40,28 @@ body {
 .nav-links a:hover {
     color: #718daa;
 }
+
+li {
+    list-style: none;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    justify-content: space-evenly;
+    bottom: 0;
+    width: 100%;
+    color: #cfe9f6;
+    height: 45px;
+    align-items: center;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-links a:hover {
+    color: #718daa;
+}
