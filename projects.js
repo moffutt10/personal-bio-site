@@ -1,21 +1,57 @@
 const projects = [
     {
-        title: "Cool Project", 
-        screenshot: "http://gotoflashgames.com/files/file/033.jpg", 
-        description: "This is the best project", // A good project description includes 'the what', 'the why', and 'the how'.
-        technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+        title: "My Dino", 
+        screenshot: "./screenshots/01.png", 
+        description: "An introduction, using the most basic HTML and CSS practice", 
+        technologiesUsed: "HTML, CSS",
         available: false,
-        url: "https://github.com/nss-evening-cohort-8/js-part-deux", // Towards the latter part of the class, you will learn how to host your projects and people will be able to view them live. Cool, right? Welp, until then, just use your GitHub link in this spot as well.
-        githubUrl: "https://github.com/nss-evening-cohort-8/js-part-deux"
+        // url: "#",
+        githubUrl: "https://github.com/moffutt10/my-dino"
       },
       {
-        title: "Cool Project2", 
-        screenshot: "https://www.catster.com/wp-content/uploads/2017/08/A-fluffy-cat-looking-funny-surprised-or-concerned.jpg", 
-        description: "This is the almost the best project", // A good project description includes 'the what', 'the why', and 'the how'.
+        title: "Product Cards", 
+        screenshot: "./screenshots/02.png", 
+        description: "Practice in mocking a web page using HTML, and CSS",
+        technologiesUsed: "HTML, CSS, Version Control with Github",
+        available: false,
+        // url: "#",
+        githubUrl: "https://github.com/moffutt10/product-cards"
+      },
+      {
+        title: "Temperature Converter", 
+        screenshot: "./screenshots/03.png", 
+        description: "A simple temperature converter",
         technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
         available: false,
-        url: "https://github.com/nss-evening-cohort-8/js-part-deux", // Towards the latter part of the class, you will learn how to host your projects and people will be able to view them live. Cool, right? Welp, until then, just use your GitHub link in this spot as well.
-        githubUrl: "https://github.com/nss-evening-cohort-8/js-part-deux"
+        url: "#",
+        githubUrl: "https://github.com/moffutt10/temperature-converter"
+      },
+      {
+        title: "Language Translator", 
+        screenshot: "./screenshots/04.png", 
+        description: "A language translator for a holiday card",
+        technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+        available: false,
+        url: "#",
+        githubUrl: "https://github.com/moffutt10/language-translator"
+      },
+      {
+        title: "Van Gogh's Ear", 
+        screenshot: "./screenshots/05a.png", 
+        description: "A group project to make a fictional band web site",
+        technologiesUsed: "HTML, CSS, Vanilla JavaScript, Teamwork Version Control with Github",
+        available: false,
+        url: "#",
+        githubUrl: "https://github.com/nss-evening-cohort-8/bandz-van-gogh-s-ear" 
+      },
+      {
+        title: "Sorting Hat", 
+        screenshot: "./screenshots/06.png", 
+        description: "A group project to make a fictional band web site",
+        technologiesUsed: "HTML, CSS, Vanilla JavaScript, Teamwork Version Control with Github",
+        available: false,
+        url: "#",
+        githubUrl: "https://github.com/moffutt10/sorting-hat" 
       }
 ];
 
