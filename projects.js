@@ -1,3 +1,20 @@
+const printToDom = (stringToPrint, divId) => {
+  selectedDiv = document.getElementById(divId);
+  selectedDiv.innerHTML = stringToPrint;
+};
+
+const createHomeView = () => {
+  let domString = '';
+  domString += `<img class="banana" src="./pics/banana.png"`;
+  domString += `<p class="banana-text">Banana. Banana, banana banana banana banana. Banana banana. Banana. Banana banana banana, banana, banana, banana banana. Banana 
+  banana, banana banana. Banana banana. Banana banana! Banana? Banana!!! Banana banana banana. Banana banana. Banana, banana banana 
+  banana banana. Banana, banana banana, banana banana. Banana banana. Banana banana, banana? Banana, banana banana. Banana!! Banana 
+  banana! Banana!!!!!!!! Banana.</p>`;
+  printToDom(domString, 'content');
+};
+
+
+// Begin Project Cards
 const projects = [
     {
         title: "My Dino", 
@@ -49,16 +66,11 @@ const projects = [
         screenshot: "./screenshots/06.png", 
         description: "A group project to make a fictional band web site",
         technologiesUsed: "HTML, CSS, Vanilla JavaScript, Teamwork Version Control with Github",
-        available: true,
+        available: false,
         url: "#",
         githubUrl: "https://github.com/moffutt10/sorting-hat" 
       }
 ];
-
-const printToDom = (stringToPrint, divId) => {
-    selectedDiv = document.getElementById(divId);
-    selectedDiv.innerHTML = stringToPrint;
-};
 
 const createProjectCards = () => {
     let domString = '';
@@ -72,7 +84,18 @@ const createProjectCards = () => {
             domString += `<a href="${projects[i].githubUrl}"></a>`;
         }
     }
-    printToDom(domString, 'projectsPage');
+    printToDom(domString, 'content');
 };
 
 createProjectCards();
+
+// End Project Cards Section
+
+// Event Listeners fron Nav Bar
+// document.getElementById('navToBio').addEventListener("click", bioFunction);
+// document.getElementById('navToTech').addEventListener("click", techFunction);
+// document.getElementById('navToProjects').addEventListener("click", projectsFunction);
+document.getElementById('navToHome').addEventListener("click", (e) => {
+  e.preventDefault();
+  createHomeView();
+});
