@@ -3,17 +3,6 @@ const printToDom = (stringToPrint, divId) => {
   selectedDiv.innerHTML = stringToPrint;
 };
 
-const createHomeView = () => {
-  let domString = '';
-  domString += `<img class="banana" src="./pics/banana.png"`;
-  domString += `<p class="banana-text">Banana. Banana, banana banana banana banana. Banana banana. Banana. Banana banana banana, banana, banana, banana banana. Banana 
-  banana, banana banana. Banana banana. Banana banana! Banana? Banana!!! Banana banana banana. Banana banana. Banana, banana banana 
-  banana banana. Banana, banana banana, banana banana. Banana banana. Banana banana, banana? Banana, banana banana. Banana!! Banana 
-  banana! Banana!!!!!!!! Banana.</p>`;
-  printToDom(domString, 'content');
-};
-
-
 // Begin Project Cards
 const projects = [
     {
@@ -66,11 +55,39 @@ const projects = [
         screenshot: "./screenshots/06.png", 
         description: "A group project to make a fictional band web site",
         technologiesUsed: "HTML, CSS, Vanilla JavaScript, Teamwork Version Control with Github",
-        available: false,
+        available: true,
         url: "#",
         githubUrl: "https://github.com/moffutt10/sorting-hat" 
       }
 ];
+
+const createHomeView = () => {
+  let domString = '';
+  domString += `<img class="banana" src="./pics/banana.png"`;
+  domString += `<p class="banana-text">Banana. Banana, banana banana banana banana. Banana banana. Banana. Banana banana banana, banana, banana, banana banana. Banana 
+  banana, banana banana. Banana banana. Banana banana! Banana? Banana!!! Banana banana banana. Banana banana. Banana, banana banana 
+  banana banana. Banana, banana banana, banana banana. Banana banana. Banana banana, banana? Banana, banana banana. Banana!! Banana 
+  banana! Banana!!!!!!!! Banana.</p>`;
+  printToDom(domString, 'content');
+};
+
+const createBio = () => {
+  let domString = '';
+  domString += `<p>This will be a photo</p>`;
+  domString += `<p>This will be a paragraph</p>`;
+  printToDom(domString, 'content');
+};
+
+const createTechList = () => {
+  let domString = '';
+  domString += '<h1>Technologies</h1>';
+  domString += '<ul>';
+    domString += '<li>HTML</li>';
+    domString += '<li>CSS</li>';
+    domString += '<li>JavaScript</li>';
+    domString +- `<li>Git</li>`;
+    printToDom(domString, 'content');
+};
 
 const createProjectCards = () => {
     let domString = '';
@@ -87,15 +104,23 @@ const createProjectCards = () => {
     printToDom(domString, 'content');
 };
 
-createProjectCards();
-
-// End Project Cards Section
-
 // Event Listeners fron Nav Bar
-// document.getElementById('navToBio').addEventListener("click", bioFunction);
-// document.getElementById('navToTech').addEventListener("click", techFunction);
-// document.getElementById('navToProjects').addEventListener("click", projectsFunction);
 document.getElementById('navToHome').addEventListener("click", (e) => {
   e.preventDefault();
   createHomeView();
 });
+
+document.getElementById('navToBio').addEventListener("click", (e) => {
+  e.preventDefault();
+  createBio();
+});
+
+document.getElementById('navToTech').addEventListener("click", (e) => {
+  e.preventDefault();
+  createTechList();
+});
+
+document.getElementById('navToProjects').addEventListener("click", (e) => {
+  e.preventDefault();
+  createProjectCards();
+})
