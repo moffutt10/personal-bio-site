@@ -49,7 +49,7 @@ const projects = [
         screenshot: "./screenshots/06.png", 
         description: "A group project to make a fictional band web site",
         technologiesUsed: "HTML, CSS, Vanilla JavaScript, Teamwork Version Control with Github",
-        available: false,
+        available: true,
         url: "#",
         githubUrl: "https://github.com/moffutt10/sorting-hat" 
       }

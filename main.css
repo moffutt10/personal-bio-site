@@ -13,8 +13,8 @@ body {
     height: 30px;
     padding-top: .5em;
     padding-bottom: .5em;
-    border: 1px solid #b39e9d;
-    background-color: #afb09b;
+    border: 1px solid blue;
+    background-color: blue;
 }
 
 .nav-links {
@@ -24,7 +24,7 @@ body {
 }
 
 .nav-bar h2, a {
-    color: #34495e;
+    color: #b0b8c0;
     text-decoration: none;
     padding: 5px 10px;
     text-transform: uppercase;
@@ -43,6 +43,23 @@ body {
 
 li {
     list-style: none;
+}
+
+.fullpage {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.banana {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.banana-text {
+    padding: 40px;
+    margin: auto;
 }
 
 .footer {
