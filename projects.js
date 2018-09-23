@@ -1,3 +1,9 @@
+const printToDom = (stringToPrint, divId) => {
+  selectedDiv = document.getElementById(divId);
+  selectedDiv.innerHTML = stringToPrint;
+};
+
+// Begin Project Cards
 const projects = [
     {
         title: "My Dino", 
@@ -55,9 +61,32 @@ const projects = [
       }
 ];
 
-const printToDom = (stringToPrint, divId) => {
-    selectedDiv = document.getElementById(divId);
-    selectedDiv.innerHTML = stringToPrint;
+const createHomeView = () => {
+  let domString = '';
+  domString += `<img class="banana" src="./pics/banana.png"`;
+  domString += `<p class="banana-text">Banana. Banana, banana banana banana banana. Banana banana. Banana. Banana banana banana, banana, banana, banana banana. Banana 
+  banana, banana banana. Banana banana. Banana banana! Banana? Banana!!! Banana banana banana. Banana banana. Banana, banana banana 
+  banana banana. Banana, banana banana, banana banana. Banana banana. Banana banana, banana? Banana, banana banana. Banana!! Banana 
+  banana! Banana!!!!!!!! Banana.</p>`;
+  printToDom(domString, 'content');
+};
+
+const createBio = () => {
+  let domString = '';
+  domString += `<p>This will be a photo</p>`;
+  domString += `<p>This will be a paragraph</p>`;
+  printToDom(domString, 'content');
+};
+
+const createTechList = () => {
+  let domString = '';
+  domString += '<h1>Technologies</h1>';
+  domString += '<ul>';
+    domString += '<li>HTML</li>';
+    domString += '<li>CSS</li>';
+    domString += '<li>JavaScript</li>';
+    domString +- `<li>Git</li>`;
+    printToDom(domString, 'content');
 };
 
 const createProjectCards = () => {
@@ -72,7 +101,26 @@ const createProjectCards = () => {
             domString += `<a href="${projects[i].githubUrl}"></a>`;
         }
     }
-    printToDom(domString, 'projectsPage');
+    printToDom(domString, 'content');
 };
 
-createProjectCards();
+// Event Listeners fron Nav Bar
+document.getElementById('navToHome').addEventListener("click", (e) => {
+  e.preventDefault();
+  createHomeView();
+});
+
+document.getElementById('navToBio').addEventListener("click", (e) => {
+  e.preventDefault();
+  createBio();
+});
+
+document.getElementById('navToTech').addEventListener("click", (e) => {
+  e.preventDefault();
+  createTechList();
+});
+
+document.getElementById('navToProjects').addEventListener("click", (e) => {
+  e.preventDefault();
+  createProjectCards();
+})
