@@ -105,22 +105,11 @@ const createProjectCards = () => {
 };
 
 // Event Listeners fron Nav Bar
-document.getElementById('navToHome').addEventListener("click", (e) => {
-  e.preventDefault();
-  createHomeView();
-});
+const listenerEvents = () => {
+  document.getElementById('navToHome').addEventListener("click", createHomeView);
+  document.getElementById('navToBio').addEventListener("click", createBio);
+  document.getElementById('navToTech').addEventListener("click", createTechList);
+  document.getElementById('navToProjects').addEventListener("click", createProjectCards);
+}
 
-document.getElementById('navToBio').addEventListener("click", (e) => {
-  e.preventDefault();
-  createBio();
-});
-
-document.getElementById('navToTech').addEventListener("click", (e) => {
-  e.preventDefault();
-  createTechList();
-});
-
-document.getElementById('navToProjects').addEventListener("click", (e) => {
-  e.preventDefault();
-  createProjectCards();
-})
+listenerEvents();
