@@ -88,10 +88,8 @@ li {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
     padding: 30px;
     padding-top: 50px;
-    width: 1000px;
 }
 
 .card {
