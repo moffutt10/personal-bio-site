@@ -82,3 +82,28 @@ li {
 .footer-links a:hover {
     color: #718daa;
 }
+
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+    padding-top: 50px;
+    width: 1000px;
+}
+
+.card {
+    width: 300px;
+    background-color: lightblue;
+    margin: 20px;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid navy;
+}
+
+.card-pic {
+    max-width: 250px;
+}
