@@ -3,6 +3,7 @@ const printToDom = (stringToPrint, divId) => {
   selectedDiv.innerHTML = stringToPrint;
 };
 
+
 // Begin Project Cards
 const projects = [
     {
@@ -90,21 +91,22 @@ const createTechList = () => {
 };
 
 const createProjectCards = () => {
-    let domString = '';
-    for(i = 0; i < projects.length; i++) {
-        if (projects[i].available === true) {
-          domString += `<div class="card">`;
-          domString += `<h3>${projects[i].title}</h3>`;
-          domString += `<img class="card-pic" src="${projects[i].screenshot}"/>`;
-          domString += `<p>${projects[i].description}</p>`;
-          domString += `<p>${projects[i].technologiesUsed}</p>`;
-          // domString += `<a href="${projects[i].url}"></a>`;
-            domString += `<a href="${projects[i].githubUrl}"></a>`;
-            domString += `</div>`;
-          domString += `</div>`;
-        }
+  let domString = '';
+  domString += `<div class="cards-container">`;
+  for(i = 0; i < projects.length; i++) {
+    if (projects[i].available === true) {
+      domString += `<div class="card">`;
+      domString +=    `<h3>${projects[i].title}</h3>`;
+      domString +=    `<img class="card-pic" src="${projects[i].screenshot}"/>`;
+      domString +=    `<p>${projects[i].description}</p>`;
+      domString +=    `<p>${projects[i].technologiesUsed}</p>`;
+      // domString += `<a href="${projects[i].url}"></a>`;
+      domString +=    `<a href="${projects[i].githubUrl}"></a>`;
+      domString += `</div>`;
     }
-    printToDom(domString, 'content');
+  }
+  domString += `</div>`;
+  printToDom(domString, 'content');
 };
 
 // Event Listeners fron Nav Bar
