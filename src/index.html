@@ -7,44 +7,72 @@
   <title>Personal Bio Site</title>
 </head>
 <body>
+  <!-- Begin navigation -->
+  <nav class="navbar navbar-expand-lg static-top">
+    <div class="container">
+      <a class="navbar-brand text-dark" href="#">Marshall Offutt</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">Technologies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">Projects</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Contact</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End navigation -->
 
-      <!-- Navigation -->
-      <nav class="navbar navbar-expand-lg static-top">
-          <div class="container">
-            <a class="navbar-brand" href="#">Marshall Offutt</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">
-                    <span class="sr-only">(current)</span>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">About Me</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Technologies</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                  </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-    
-        <!-- Page Content -->
-        <div class="container">
-          
+  <!-- Begin Primary View -->
+  <div class="container">
+    <div class="fullPage" id="bioPage">
+      <div class="card mt-4">
+        <div class="card-body">
+          <h1>Who am I?</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi sequi commodi labore voluptates sit amet earum architecto, blanditiis quisquam delectus debitis optio alias, nisi autem fugiat ea, et veritatis minima! Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam necessitatibus dolorem atque eligendi veniam nostrum, distinctio autem. Unde necessitatibus perspiciatis porro vel illo ullam sed, odio in facere quaerat officiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, nulla! Molestias, repellat excepturi voluptates ad voluptate aliquid veniam ipsum. Illum mollitia debitis, repellat excepturi fugiat culpa fugit aliquid! Fugit, dicta.</p>
+        </div>
+      </div>
+    </div>
+    <div class="fullPage" id="technologiesPage"></div>
+    <div class="fullPage" id="projectsPage"></div>
+    <div class="fullPage" id="Contact"></div>
+  </div>
+  <!-- End Primary View -->
 
+  <!-- Begin footer -->
+  <footer class="footer text-center">
+    <div class="container">
+      <ul class="list-inline mb-5">
+        <li class="list-inline-item">
+          <a title="LinkedIn" href="https://www.linkedin.com/in/marshalloffutt/" class="nav-icon linkedin">LinkedIn</a>
+        </li>
+        <li class="list-inline-item">
+          <a title="Twitter" href="https://twitter.com/maarrrrrsshall" class="nav-icon twitter">Twitter</a>
+        </li>
+        <li class="list-inline-item">
+          <a title="GitHub" href="https://github.com/marshalloffutt" class="nav-icon github">GitHub</a>
+        </li>
+      </ul>
+      <p class="text-muted small mb-0">Marshall Offutt | 2018</p>
+    </div>
+  </footer>
+  <!-- End footer -->
 
-  <button class="btn btn-primary" id="test">Click me</button>
-  <div id="words"></div>
 </body>
 </html>
