@@ -1,0 +1,36 @@
+
+{
+  "projects": 
+  [
+    {
+      "title": "Language Translator",
+      "screenshot": "#",
+      "alt": "Language Translator Screenshot",
+      "description": "This project was an exploration of javascript functions. We played around with arrays, for loops, and conditional statements to build a bad translator app for a holiday card.",
+      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+      "available": true,
+      "url": "#",
+      "githubUrl": "https://github.com/marshalloffutt/language-translator"
+    },
+    {
+      "title": "Whaddup",
+      "screenshot": "#",
+      "alt": "Chatty Screenshot",
+      "description": "A group project focused on the concepts of JSON, where we created a Windows 95-themed chat application in single page format.",
+      "technologiesUsed": "HTML, Vanilla JavaScript, Bootstrap 4, AJAX, Version Control with Github",
+      "available": true,
+      "url": "#",
+      "githubUrl": "https://github.com/nss-evening-cohort-8/chatty-bottle-openers"
+    },
+    {
+      "title": "WYSIWYG",
+      "screenshot": "#",
+      "alt": "What You See Is What You Get Screenshot",
+      "description": "A bonus exercise that makes use of event listeners, tests our understanding of order of importance in javascript, and challenges our ability to 'traverse the dom'.",
+      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+      "available": true,
+      "url": "#",
+      "githubUrl": "https://github.com/marshalloffutt/wysiwyg"
+    }
+  ]
+}
