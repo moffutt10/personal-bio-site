@@ -3,7 +3,6 @@ import 'bootstrap';
 import './index.scss';
 import './components/projects';
 import './data/projectsData';
+import photo from './images/me.jpg';
 
-$('#test').on('click', () => {
-  $('#words').append('<p>Test</p>');
-});
+$('#marshall').attr('src', photo);
