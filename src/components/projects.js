@@ -3,22 +3,23 @@ import getProjects from '../data/projectsData';
 import 'bootstrap';
 
 const writeProjects = (projects) => {
-  let domString = '';
+  let newString = '';
   projects.forEach((project) => {
-    domString += `
-    <div id='${project.title}' class='card'>
-      <img class='card-img-top' src='${project.screenshot}
-      <div class="card-body">
-          <h5 class="card-title">${project.title}</h5>
-          <h6 class="card-text">${project.description}</h6>
-          <p class="technologies-used">${project.technologiesUsed}</p>
-          <a href="${project.githubUrl}" class="btn btn-secondary d-flex justify-content-center">GitHub</a>
+    newString += `
+    <div class="container">
+      <div class="info container">
+        <h1 class="text-light">${project.title} </h1>
+        <h3 class="text-light">${project.description}</h3>
+        <p class="text-light">${project.technologiesUsed}</p>
       </div>
-    </div>`;
-    if (project.available === true) {
-      $('#projectsPage').html(domString);
-    }
+      <div class="pic container">
+        <img src="${project.screenshot}">
+        <a class="link text-light" href="${project.githubUrl}">GitHub</a>
+      </div>
+    </div>
+    `;
   });
+  $('#projectsPage').html(newString);
 };
 
 const loadProjects = () => {
@@ -31,4 +32,4 @@ const loadProjects = () => {
     });
 };
 
-export default { loadProjects };
+export default loadProjects;
