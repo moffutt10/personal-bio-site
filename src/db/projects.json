@@ -3,7 +3,7 @@
   [
     {
       "title": "Language Translator",
-      "screenshot": "./images/lang-screenshot.png",
+      "screenshot": "./images/lang-pic.png",
       "alt": "Language Translator Screenshot",
       "description": "This project was an exploration of javascript functions. We played around with arrays, for loops, and conditional statements to build a bad translator app for a holiday card.",
       "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
@@ -13,7 +13,7 @@
     },
     {
       "title": "Whaddup",
-      "screenshot": "./images/whaddup-screenshot.png",
+      "screenshot": "./images/whaddup-pic.png",
       "alt": "Chatty Screenshot",
       "description": "A group project focused on the concepts of JSON, where we created a Windows 95-themed chat application in single page format.",
       "technologiesUsed": "HTML, Vanilla JavaScript, Bootstrap 4, AJAX, Version Control with Github",
@@ -23,9 +23,9 @@
     },
     {
       "title": "WYSIWYG",
-      "screenshot": "./images/wysiwyg-screenshot.png",
+      "screenshot": "./images/wysiwyg-pic.png",
       "alt": "What You See Is What You Get Screenshot",
-      "description": "A bonus exercise that makes use of event listeners, tests our understanding of order of importance in javascript, and challenges our ability to 'traverse the dom'.",
+      "description": "What You See Is What You Get was a fun exercise that makes use of event listeners, tests our understanding of order of importance in javascript, and challenges our ability to 'traverse the dom'.",
       "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
       "available": true,
       "url": "#",
