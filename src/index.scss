@@ -27,9 +27,15 @@ body {
 }
 
 .screenshot {
-  max-width: 600px;
+  max-width: 579px;
 }
 
 .proj-card {
-  border: 1px solid white;
+  margin: 50px;
+}
+
+.proj-card:nth-child(even) {
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
