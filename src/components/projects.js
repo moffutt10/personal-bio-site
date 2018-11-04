@@ -6,15 +6,17 @@ const writeProjects = (projects) => {
   let newString = '';
   projects.forEach((project) => {
     newString += `
-    <div class="container proj-card">
+    <div class="container d-flex proj-card">
       <div class="info container">
         <h1 class="text-light">${project.title} </h1>
-        <h3 class="text-light">${project.description}</h3>
-        <p class="text-light">${project.technologiesUsed}</p>
+        <h5 class="text-light">${project.description}</h5>
+        <p class="text-light">Technologies used: ${project.technologiesUsed}</p>
+        <div>
+          <a class="link text-light" href="${project.githubUrl}">GitHub link</a>
+        </div>
       </div>
       <div class="pic container">
         <img class="screenshot" src="${project.screenshot}">
-        <a class="link text-light" href="${project.githubUrl}">GitHub</a>
       </div>
     </div>
     `;
