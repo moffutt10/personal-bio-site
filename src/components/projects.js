@@ -1,5 +1,5 @@
 import $ from 'jquery';
-import projectData from '../data/projectsData';
+import getProjects from '../data/projectsData';
 import 'bootstrap';
 
 const writeProjects = (projects) => {
@@ -22,9 +22,9 @@ const writeProjects = (projects) => {
 };
 
 const loadProjects = () => {
-  projectData.getProjects()
+  getProjects()
     .then((data) => {
-      writeProjects(data.data.projects);
+      writeProjects(data.data.projects, data);
     })
     .catch((error) => {
       console.error(error);
