@@ -5,7 +5,7 @@ body {
 }
 
 .navbar {
-  background-color: transparent;
+  background-color: black;
 }
 
 #marshall {
@@ -38,4 +38,8 @@ body {
   -webkit-flex-direction: row-reverse;
   -ms-flex-direction: row-reverse;
   flex-direction: row-reverse;
+}
+
+#footer {
+  background-color: black;
 }
