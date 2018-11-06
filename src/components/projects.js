@@ -4,6 +4,9 @@ import 'bootstrap';
 
 const writeProjects = (projects) => {
   let newString = '';
+  newString += '<div class="container d-flex justify-content-center header">';
+  newString += '<h1 class="text-light">Recent Works</h1>';
+  newString += '</div>';
   projects.forEach((project) => {
     newString += `
     <div class="container d-flex proj-card">
