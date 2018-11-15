@@ -30,7 +30,7 @@ const writeProjects = (projects) => {
 const loadProjects = () => {
   getProjects()
     .then((data) => {
-      writeProjects(data.data.projects, data);
+      writeProjects(data);
     })
     .catch((error) => {
       console.error(error);
