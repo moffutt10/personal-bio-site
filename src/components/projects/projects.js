@@ -1,5 +1,5 @@
 import $ from 'jquery';
-import getProjects from '../data/projectsData';
+import getProjects from '../../data/projectsData';
 import 'bootstrap';
 
 const writeProjects = (projects) => {
