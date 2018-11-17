@@ -1,11 +1,17 @@
 @import "~bootstrap/scss/bootstrap";
 
+$slategray: #41748D;
+$caliente: #EF3340;
+$white: #eff1f3;
+$blue: #00A3E0;
+
 .header {
-  border-bottom: 1px solid red;
+  border-bottom: 1px solid $caliente;
   margin-bottom: 20px;
 }
 
 #body {
+  background-color: $white;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -21,8 +27,4 @@
 #connect {
   margin-top: 40px;
   padding-top: 200px;
-}
-
-#footer {
-  background-color: transparent;
 }
