@@ -1,9 +1,18 @@
 import $ from 'jquery';
 import './navbar.scss';
+import createHomeView from '../home/home';
+
+const navbarEvents = () => {
+  $('nav-link').on('click', (e) => {
+    if (e.target.id === 'navbar-button-home') {
+      createHomeView();
+    }
+  });
+};
 
 const createNavbar = () => {
   const domString = `
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#">Marshall Offutt</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -14,19 +23,20 @@ const createNavbar = () => {
           <a class="nav-link" id="navbar-button-home">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" id="navbar-button-tasks">About Me</a>
+          <a class="nav-link" id="navbar-button-about">About Me</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" id="navbar-button-done">Projects</a>
+          <a class="nav-link" id="navbar-button-projects">Projects</a>
         </li>    
         <li class="nav-item">
-        <a class="nav-link" id="navbar-button-logout">Connect</a>
+        <a class="nav-link" id="navbar-button-connect">Connect</a>
       </li>
       </ul>
     </div>
   </nav>
   `;
   $('#navbar').html(domString);
+  navbarEvents();
 };
 
 export default createNavbar;

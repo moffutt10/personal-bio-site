@@ -1,18 +1,19 @@
-import $ from 'jquery';
 import 'bootstrap';
 import firebase from 'firebase/app';
 import apiKeys from '../db/apiKeys.json';
 import './index.scss';
-import loadProjects from './components/projects/projects';
+// import loadProjects from './components/projects/projects';
 import './data/projectsData';
-import photo from './images/me.jpg';
-import createNavbar from './components/navbar/navbar';
 
-$('#marshall').attr('src', photo);
+import createNavbar from './components/navbar/navbar';
+import createHomeView from './components/home/home';
+
+
 const initializeProjects = () => {
   firebase.initializeApp(apiKeys.firebaseKeys);
   createNavbar();
-  loadProjects();
+  createHomeView();
+  // loadProjects();
 };
 
 initializeProjects();
