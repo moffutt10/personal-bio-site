@@ -5,7 +5,6 @@
   margin-bottom: 20px;
 }
 
-
 #body {
   background-size: cover;
   background-repeat: no-repeat;
@@ -13,26 +12,11 @@
 
 .fullPage {
   width: 100%;
-  padding: 0 7%;
   display: table;
   margin: 0;
   max-width: none;
-  height: 100vh;
 }
 
-.screenshot {
-  max-width: 579px;
-}
-
-.proj-card {
-  margin: 50px;
-}
-
-.proj-card:nth-child(even) {
-  -webkit-flex-direction: row-reverse;
-  -ms-flex-direction: row-reverse;
-  flex-direction: row-reverse;
-}
 
 #connect {
   margin-top: 40px;

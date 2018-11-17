@@ -1,14 +1,15 @@
 import $ from 'jquery';
 import getProjects from '../../data/projectsData';
 import 'bootstrap';
+import './projects.scss';
 
 const writeProjects = (projects) => {
-  let newString = '';
-  newString += '<div class="container d-flex justify-content-center header">';
-  newString += '<h1 class="text-light">Recent Works</h1>';
-  newString += '</div>';
+  let domString = '';
+  domString += '<div class="container d-flex justify-content-center header">';
+  domString += '<h1 class="text-light">Recent Works</h1>';
+  domString += '</div>';
   projects.forEach((project) => {
-    newString += `
+    domString += `
     <div class="container d-flex proj-card">
       <div class="info container">
         <h1 class="text-light">${project.title} </h1>
@@ -24,7 +25,8 @@ const writeProjects = (projects) => {
     </div>
     `;
   });
-  $('#projectsPage').html(newString);
+  $('#content').html(domString);
+  $('#body').css('background-image', 'none');
 };
 
 const loadProjects = () => {

@@ -1,11 +1,14 @@
 import $ from 'jquery';
 import './navbar.scss';
 import createHomeView from '../home/home';
+import loadProjects from '../projects/projects';
 
 const navbarEvents = () => {
-  $('nav-link').on('click', (e) => {
+  $('.nav-link').on('click', (e) => {
     if (e.target.id === 'navbar-button-home') {
       createHomeView();
+    } else if (e.target.id === 'navbar-button-projects') {
+      loadProjects();
     }
   });
 };
