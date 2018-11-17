@@ -1,29 +1,14 @@
 @import "~bootstrap/scss/bootstrap";
 
-body {
-  background-color: black;
-}
-
 .header {
   border-bottom: 1px solid red;
   margin-bottom: 20px;
 }
 
-.navbar {
-  background-color: black;
-}
 
-.sticky {
-  position: fixed;
-}
-
-#marshall {
-  min-height: 300px;
-  min-width: 300px;
-  max-width: 300px;
-  max-height: 300px;
-  height: 300px;
-  width: 300px;
+#body {
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .fullPage {
@@ -33,24 +18,6 @@ body {
   margin: 0;
   max-width: none;
   height: 100vh;
-}
-
-.mostPage {
-  width: 100%;
-  padding: 0 7%;
-  display: table;
-  margin: 0;
-  max-width: none;
-  height: 100vh;
-}
-
-.partPage {
-  width: 100%;
-  padding: 0 7%;
-  display: table;
-  margin: 0;
-  max-width: none;
-  height: 75vh;
 }
 
 .screenshot {
@@ -73,5 +40,5 @@ body {
 }
 
 #footer {
-  background-color: black;
+  background-color: transparent;
 }
