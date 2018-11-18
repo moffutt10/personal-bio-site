@@ -3,7 +3,6 @@ import './navbar.scss';
 import createHomeView from '../home/home';
 import loadProjects from '../projects/projects';
 import createAboutMe from '../aboutme/aboutme';
-import writeConnect from '../connect/connect';
 
 const navbarEvents = () => {
   $('.nav-link').on('click', (e) => {
@@ -13,8 +12,6 @@ const navbarEvents = () => {
       loadProjects();
     } else if (e.target.id === 'navbar-button-aboutme') {
       createAboutMe();
-    } else if (e.target.id === 'navbar-button-connect') {
-      writeConnect();
     }
   });
 };
@@ -37,14 +34,11 @@ const createNavbar = () => {
             <li class="nav-item">
               <a class="nav-link" id="navbar-button-projects">Projects</a>
             </li>   
-            <li class="nav-item">
-              <a class="nav-link" id="navbar-button-connect">Connect</a>
-            </li>
         </ul>
         <ul class="nav navbar-nav flex-row justify-content-center flex-nowrap">
-            <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-github mr-1"></i></a> </li>
-            <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-twitter"></i></a> </li>
-            <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-linkedin"></i></a> </li>
+            <li class="nav-item"><a class="nav-link" href="https://github.com/marshalloffutt"><i class="fab fa-github mr-1"></i></a> </li>
+            <li class="nav-item"><a class="nav-link" href="https://twitter.com/marshalloffutt"><i class="fab fa-twitter"></i></a> </li>
+            <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/marshalloffutt/"><i class="fab fa-linkedin"></i></a> </li>
         </ul>
     </div>
   </nav>

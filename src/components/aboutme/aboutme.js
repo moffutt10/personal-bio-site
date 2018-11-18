@@ -19,6 +19,10 @@ const createAboutMe = () => {
       <img id="me" class="img-fluid d-block mx-auto" alt="Marshall Offutt">
     </div>
   </div>
+  <h3 class="text-dark">Contact Me
+  <p class="text-dark">
+    <a href="mailto:marshalloffutt#gmail.com">marshalloffutt@gmail.com</a>
+  </p>
   `;
   $('#content').html(domString);
   $('#me').attr('src', photo);
