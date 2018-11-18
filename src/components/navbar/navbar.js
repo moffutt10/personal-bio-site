@@ -19,7 +19,6 @@ const navbarEvents = () => {
 const createNavbar = () => {
   const domString = `
   <nav class="navbar navbar-light navbar-expand-md justify-content-center">
-    <a href="/" class="navbar-brand mr-0">Marshall Offutt</a> 
     <button class="navbar-toggler ml-1" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
         <span class="navbar-toggler-icon"></span>
     </button>

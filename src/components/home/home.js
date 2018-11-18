@@ -4,11 +4,13 @@ import photo from '../../images/Marshall-34.jpg';
 
 const createHomeView = () => {
   const domString = `
-  <div class="fullPage container d-flex" id="home">
+  <div class="fullPage container d-flex justify-content-end" id="home">
         <div class="container"></div>
         <div class="container p-4 mt-4" id="homeContent">
-          <h1 class="text">Software Developer</h1>
-          <h3 class="text">I make things.</h3>
+          <h1 class="text-light">MARSHALL OFFUTT</h1>
+          <h1 class="text-light">DEVELOPER</H1>
+          <h1 class="text-light">RUNNER</H1>
+          <h1 class="text-light">ADVENTURER</H1>
         </div>
       </div>
     </div>
