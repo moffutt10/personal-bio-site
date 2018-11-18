@@ -7,6 +7,8 @@ const writeConnect = () => {
     <div class="container d-flex justify-content-center header mt-4">
       <h1 class="text-dark">Connect</h1>
     </div>
+    <h3 class="text-dark">You may reach me via email at marshalloffutt@gmail.com</h3>
+    <br>
     <h4 class="text-dark">You may also find me on the web at any of the following platforms:</h4>
     <div class="container">
         <ul class="list-inline m-4 d-flex container justify-content-center">
