@@ -1,6 +1,25 @@
+$slate: #41748D;
 $caliente: #EF3340;
+$white: #eff1f3;
+$blue: #00A3E0;
 
 .header {
   border-bottom: 1px solid $caliente;
   margin-bottom: 20px;
+}
+
+#homeContent {
+  padding-top: 40px;
+  margin-top: 80px;
+    h1 {
+      font-size: 2em;
+      color: $slate;
+      font-family: 'Open Sans', sans-serif;
+    }
+    h3 {
+      font-size: 1.5em;
+      font-family: 'Open Sans', sans-serif;
+      color: $slate;
+    }
+  // margin-left: 500px;
 }
