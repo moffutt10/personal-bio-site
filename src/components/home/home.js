@@ -6,10 +6,9 @@ const createHomeView = () => {
   const domString = `
   <div class="fullPage container d-flex" id="home">
         <div class="container"></div>
-        <div class="container mt-4">
-          <h1 class="text-light">Marshall Offutt</h1>
-          <h2 class="text-light">Full Stack Developer</h2>
-          <p class="text-light">I make things.</p>
+        <div class="container p-4 mt-4" id="homeContent">
+          <h1 class="text">Software Developer</h1>
+          <h3 class="text">I make things.</h3>
         </div>
       </div>
     </div>
