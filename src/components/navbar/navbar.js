@@ -22,7 +22,7 @@ const createNavbar = () => {
     <button class="navbar-toggler ml-1" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="navbar-collapse collapse justify-content-between align-items-center w-100" id="collapsingNavbar2">
+    <div class="navbar-collapse collapse  w-100" id="collapsingNavbar2">
         <ul class="navbar-nav mx-auto text-center">
             <li class="nav-item">
               <a class="nav-link" id="navbar-button-home">Home</a>
@@ -34,7 +34,9 @@ const createNavbar = () => {
               <a class="nav-link" id="navbar-button-projects">Projects</a>
             </li>   
         </ul>
-        <ul class="nav navbar-nav flex-row justify-content-center flex-nowrap">
+    </div>
+    <div>
+        <ul class="nav navbar-nav flex-row flex-nowrap">
             <li class="nav-item"><a class="nav-link" href="https://github.com/marshalloffutt"><i class="fab fa-github mr-1"></i></a> </li>
             <li class="nav-item"><a class="nav-link" href="https://twitter.com/marshalloffutt"><i class="fab fa-twitter"></i></a> </li>
             <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/marshalloffutt/"><i class="fab fa-linkedin"></i></a> </li>
