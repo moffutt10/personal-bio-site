@@ -16,10 +16,15 @@ $blue: #00A3E0;
       color: $slate;
       font-family: 'Open Sans', sans-serif;
     }
-    h3 {
+    h2 {
       font-size: 1.5em;
       font-family: 'Open Sans', sans-serif;
       color: $slate;
     }
   // margin-left: 500px;
+}
+
+#marshall {
+  max-width: 400px;
+  max-height: 400px;
 }
