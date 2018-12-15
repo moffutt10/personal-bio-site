@@ -2,6 +2,7 @@
 
 ## Description
 This is a personal bio portfolio site dedicated to me. I will be updating this repo periodically.
+The current website may be viewed [here](https://personal-bio-site-1517a.firebaseapp.com/)
 
 ## Technologies Used
 * Bootstrap
