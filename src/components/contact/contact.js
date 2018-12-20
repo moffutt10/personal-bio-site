@@ -3,9 +3,6 @@ import './contact.scss';
 
 const createContact = () => {
   const domString = `
-    <div class="d-flex justify-content-center header">
-      <h1 class="text-dark mt-4">Contact Me</h1>
-    </div>
     <div class="container d-flex flex-column p-5 mt-5">
         <h4>You can send me an <span><a href="mailto:marshalloffutt@gmail.com?subject=Hi!!" target="_blank">email</a></span>, or connect with me at any of the following social media platforms:</h4>
         <div class="container">

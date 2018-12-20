@@ -5,9 +5,6 @@ import './projects.scss';
 
 const writeProjects = (projects) => {
   let domString = '';
-  domString += '<div class="container d-flex justify-content-center header">';
-  domString += '<h1 class="text-dark mt-4">Recent Works</h1>';
-  domString += '</div>';
   projects.forEach((project) => {
     domString += `
     <div class="container d-flex proj-card">

@@ -1,5 +1,6 @@
 $slate: #41748D;
 $blue: #00A3E0;
+$dark: rgb(48, 75, 88);
 
 
 .homePage {
@@ -9,16 +10,27 @@ $blue: #00A3E0;
   max-width: none;
 }
 
+.me {
+  background-color: $dark;
+  box-shadow: 10px 10px 15px 0 rgba(0,0,0,.1);
+  padding: 50px;
+  border-radius: 10px;
+}
+
 .indent {
     text-indent: 2em;
 }
 
+
 .name {
   font-family: 'IBM Plex Sans', sans-serif;
-  color: $slate;
-  font-size: 4em;
-  line-height: .6em;
+  color: #fff;
+  font-size: 2.6em;
+  font-weight: 100;
+  line-height: 1em;
 }
+
+
 
 .deco {
     color: $blue;

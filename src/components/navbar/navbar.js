@@ -28,7 +28,7 @@ const navbarEvents = () => {
 const createNavbar = () => {
   const domString = `
   <nav class="navbar navbar-light navbar-expand-md justify-content-center">
-    <button class="navbar-toggler ml-1" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
+    <button class="navbar-toggler ml-2" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="navbar-collapse collapse  w-100" id="collapsingNavbar2">
