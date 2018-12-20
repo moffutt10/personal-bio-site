@@ -1,24 +1,19 @@
 import $ from 'jquery';
 import './home.scss';
-import photo from '../../images/me.jpeg';
 
 const createHomeView = () => {
   const domString = `
-  <div class="fullPage container d-flex justify-content-end" id="home">
-    <div class="container d-flex align-items-center" id="homeContent">
-      <div class="container">
-        <img id="marshall" class="rounded-circle img-fluid d-block mx-auto" alt="Marshall Offutt">
-      </div>
-      <div class="container">
-        <h1>Marshall Offutt</h1>
-        <h2>Full Stack Developer</h2>
-        <p>I make things.</p>
+    <div class="d-flex justify-content-center align-items-center homePage">
+      <div>
+        <h1 class="name">MARSHALL OFFUTT: {</h1>
+        <h1 class="name indent"><span class="deco">Full-Stack Developer,</span></h1>
+        <h1 class="name indent">Runner,</h1>
+        <h1 class="name indent">Adventurer,</h1>
+        <h1 class="name">};</h1>
       </div>
     </div>
-  </div>
   `;
   $('#content').html(domString);
-  $('#marshall').attr('src', photo);
 };
 
 export default createHomeView;
