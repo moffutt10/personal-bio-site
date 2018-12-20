@@ -2,6 +2,7 @@ import $ from 'jquery';
 import './navbar.scss';
 import createHomeView from '../home/home';
 import loadProjects from '../projects/projects';
+import createTechnologies from '../technologies/technologies';
 import createAboutMe from '../aboutme/aboutme';
 import loadBlogs from '../blog/blog';
 
@@ -15,6 +16,8 @@ const navbarEvents = () => {
       createAboutMe();
     } else if (e.target.id === 'navbar-button-blog') {
       loadBlogs();
+    } else if (e.target.id === 'navbar-button-technologies') {
+      createTechnologies();
     }
   });
 };
@@ -36,6 +39,9 @@ const createNavbar = () => {
             <li class="nav-item">
               <a class="nav-link" id="navbar-button-projects">Projects</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" id="navbar-button-technologies">Technologies</a>
+            </li>            
             <li class="nav-item">
               <a class="nav-link" id="navbar-button-blog">Blog</a>
             </li>   

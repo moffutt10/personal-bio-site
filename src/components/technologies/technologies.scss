@@ -1,0 +1,33 @@
+.homePage {
+  height: 80vh;
+  display: table;
+  margin: 0;
+  max-width: none;
+}
+
+.name {
+  font-family: 'Roboto', sans-serif;
+  color: #41748D;
+  /* font-size: 2em; */
+  /* font-style: italic; */
+  padding: 20px;
+}
+
+.skillz {
+  font-family: 'Roboto', sans-serif;
+  color: #41748D;
+  /* font-size: 1em; */
+  font-style: italic;
+  padding: 20px;
+}
+
+
+.icons {
+  font-size: 6rem;
+  padding: 10px;
+  color: #00A3E0;
+}
+
+i {
+    margin: 30px;
+}
