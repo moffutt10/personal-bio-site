@@ -5,12 +5,12 @@ This is a personal bio portfolio site dedicated to me. I will be updating this r
 The current website can be viewed [here](https://personal-bio-site-1517a.firebaseapp.com/).
 
 ## Screenshots
-![homeview](./images/snapshot1.png)
-![about](./images/snapshot2.png)
-![projects](./images/snapshot3.png)
-![tech](./images/snapshot4.png)
-![blog](./images/snapshot5.png)
-![contact](./images/snapshot6.png)
+![homeview](./images/screenshot1.png)
+![about](./images/screenshot2.png)
+![projects](./images/screenshot3.png)
+![tech](./images/screenshot4.png)
+![blog](./images/screenshot5.png)
+![contact](./images/screenshot6.png)
 
 ## Technologies Used
 * Bootstrap
