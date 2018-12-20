@@ -5,7 +5,7 @@ import photo from '../../images/me.jpeg';
 
 const createAboutMe = () => {
   const domString = `
-  <div class="container d-flex flex-column justify-content-center p-5">
+  <div class="container d-flex flex-column justify-content-center p-5 mt-4">
         <div>
           <img id="marshall" class="rounded-circle img-fluid d-block mx-auto" alt="Marshall Offutt">
         </div>
