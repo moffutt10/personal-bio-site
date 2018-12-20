@@ -18,6 +18,8 @@ The current website can be viewed [here](https://personal-bio-site-1517a.firebas
 * Axios
 * Firebase
 * JavaScript ES6 Modules
+* Font Awesome
+* Devicon
 
 ## How to run this app
 Note: To run this app you will need a firebase account and a new project.
