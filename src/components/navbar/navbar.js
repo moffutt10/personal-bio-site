@@ -5,6 +5,7 @@ import loadProjects from '../projects/projects';
 import createTechnologies from '../technologies/technologies';
 import createAboutMe from '../aboutme/aboutme';
 import loadBlogs from '../blog/blog';
+import createContact from '../contact/contact';
 
 const navbarEvents = () => {
   $('.nav-link').on('click', (e) => {
@@ -18,6 +19,8 @@ const navbarEvents = () => {
       loadBlogs();
     } else if (e.target.id === 'navbar-button-technologies') {
       createTechnologies();
+    } else if (e.target.id === 'navbar-button-contact') {
+      createContact();
     }
   });
 };
@@ -44,6 +47,9 @@ const createNavbar = () => {
             </li>            
             <li class="nav-item">
               <a class="nav-link" id="navbar-button-blog">Blog</a>
+            </li>   
+            <li class="nav-item">
+              <a class="nav-link" id="navbar-button-contact">Contact</a>
             </li>   
         </ul>
     </div>

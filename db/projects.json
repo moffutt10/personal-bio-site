@@ -1,36 +1,36 @@
 {
   "project1":
-    {
-      "title": "Language Translator",
-      "screenshot": "https://raw.githubusercontent.com/marshalloffutt/personal-bio-site/master/src/images/lang-pic.png",
-      "alt": "Language Translator Screenshot",
-      "description": "This project was an exploration of javascript functions. We played around with arrays, for loops, and conditional statements to build a bad translator app for a holiday card.",
-      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
-      "available": true,
-      "url": "#",
-      "githubUrl": "https://github.com/marshalloffutt/language-translator"
-    },
-  "project2":
-    {
-      "title": "Whaddup",
-      "screenshot": "https://github.com/marshalloffutt/personal-bio-site/blob/master/src/images/whaddup-pic.png?raw=true",
-      "alt": "Chatty Screenshot",
-      "description": "A group project focused on the concepts of JSON, where we created a Windows 95-themed chat application in single page format.",
-      "technologiesUsed": "HTML, Vanilla JavaScript, Bootstrap 4, AJAX, Version Control with Github",
-      "available": true,
-      "url": "#",
-      "githubUrl": "https://github.com/nss-evening-cohort-8/chatty-bottle-openers"
-    },
-  "project3":
-    {
-      "title": "WYSIWYG",
-      "screenshot": "https://github.com/marshalloffutt/personal-bio-site/blob/master/src/images/wysiwyg-pic.png?raw=true",
-      "alt": "What You See Is What You Get Screenshot",
-      "description": "What You See Is What You Get was a fun exercise that makes use of event listeners, tests our understanding of order of importance in javascript, and challenges our ability to 'traverse the dom'.",
-      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
-      "available": true,
-      "url": "#",
-      "githubUrl": "https://github.com/marshalloffutt/wysiwyg"
-    }
+  {
+    "title": "Get Things Done",
+    "screenshot": "https://github.com/marshalloffutt/to-do/raw/master/screenshots/snapshot1.png",
+    "alt": "Get Things Done screenshot",
+    "description": "Every developer worth their salt codes a To-Do app at some point. This one is mine. It utilizes full CRUD methods to interact with Firebase.",
+    "technologiesUsed": "Webpack, Axios, Firebase, JavaScript, ES6 Modules, SASS, Bootstrap",
+    "available": true,
+    "url": "#",
+    "githubUrl": "https://raw.githubusercontent.com/marshalloffutt/personal-bio-site/master/src/images/lang-pic.png"
+  },
+"project2":
+  {
+    "title": "Whaddup",
+    "screenshot": "https://github.com/marshalloffutt/personal-bio-site/blob/master/src/images/whaddup-pic.png?raw=true",
+    "alt": "Chatty Screenshot",
+    "description": "A group project focused on the concepts of JSON, where we created a Windows 95-themed chat application in single page format.",
+    "technologiesUsed": "HTML, Vanilla JavaScript, Bootstrap 4, AJAX, Version Control with Github",
+    "available": true,
+    "url": "#",
+    "githubUrl": "https://github.com/nss-evening-cohort-8/chatty-bottle-openers"
+  },
+"project3":
+  {
+    "title": "Lego Builder",
+    "screenshot": "https://github.com/marshalloffutt/lego-builder/raw/master/images/snapshot1.png",
+    "alt": "Lego Builder main view",
+    "description": "A small lego-man builder app. User can make a lego person creation, randomize a lego person, or save individual lego characters. The name of each lego creation corresponds to each lego piece selected. As user swaps out lego parts, the name will change to reflect the newly chosen piece.",
+    "technologiesUsed": "Webpack, JavaScript, ES6 Modules, Axios, Firebase, Bootstrap, SASS",
+    "available": true,
+    "url": "#",
+    "githubUrl": "https://github.com/marshalloffutt/lego-builder"
+  }
 
 }
