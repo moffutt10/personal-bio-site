@@ -3,9 +3,6 @@ import './technologies.scss';
 
 const createTechnologies = () => {
   const domString = `
-    <div class="container d-flex justify-content-center header">
-      <h1 class="text-dark mt-4">Technologies</h1>
-    </div>
     <div class="container d-flex flex-column p-5">
         <div>
           <h4 class="skillz">"What I do have is a very particular set of skills."</h4>

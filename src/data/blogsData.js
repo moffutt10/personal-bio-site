@@ -13,7 +13,7 @@ const getBlogs = () => new Promise((resolve, reject) => {
         Object.keys(allBlogsObject).forEach((blogId) => {
           const newBlog = allBlogsObject[blogId];
           newBlog.id = blogId;
-          allBlogsArray.push(newBlog);
+          allBlogsArray.unshift(newBlog);
         });
       }
       resolve(allBlogsArray);
