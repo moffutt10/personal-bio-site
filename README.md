@@ -9,7 +9,7 @@ The current website can be viewed [here](https://personal-bio-site-1517a.firebas
 ![about](./src/images/screenshot2.png)
 ![projects](./src/images/screenshot3.png)
 ![tech](./src/images/screenshot4.png)
-![blog](./sr/images/screenshot5.png)
+![blog](./src/images/screenshot5.png)
 ![contact](./src/images/screenshot6.png)
 
 ## Technologies Used
