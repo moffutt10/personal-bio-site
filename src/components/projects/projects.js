@@ -13,12 +13,17 @@ const writeProjects = (projects) => {
         <h5 class="text-dark">${project.description}</h5>
         <p class="text-dark">Technologies used: ${project.technologiesUsed}</p>
         <div>
-          <a class="link text-dark" href="${project.githubUrl}">GitHub link</a>
+          <a class="link" href="${project.githubUrl}" target="_blank">GitHub</a>
+        </div>
+        <div>
+          <a class="link" href="${project.url}" target="_blank">Link</a>
         </div>
       </div>
-      <div class="pic container m-2">
-        <img class="screenshot" src="${project.screenshot}">
-      </div>
+      <a href="${project.url}" target="_blank">
+        <div class="pic container m-2">
+          <img class="screenshot" src="${project.screenshot}">
+        </div>
+      </a>
     </div>
     `;
   });
