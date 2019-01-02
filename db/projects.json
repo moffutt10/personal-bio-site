@@ -1,6 +1,17 @@
 {
   "project1":
   {
+    "title": "Dev++",
+    "screenshot": "https://github.com/marshalloffutt/developer-portal/raw/master/images/screenshot1.png",
+    "alt": "Developer Portal screenshot",
+    "description": "This was my very first project in React! It is a tool for junior developers to keep track of learning resources they are interested in. It utilizes full CRUD methods to interact with Firebase.",
+    "technologiesUsed": "React.js, Axios, Firebase, SASS, Reactstrap",
+    "available": true,
+    "url": "https://developer-portal-f10f9.firebaseapp.com/",
+    "githubUrl": "https://github.com/marshalloffutt/developer-portal"
+  },
+  "project2":
+  {
     "title": "Get Things Done",
     "screenshot": "https://github.com/marshalloffutt/to-do/raw/master/screenshots/snapshot1.png",
     "alt": "Get Things Done screenshot",
@@ -9,17 +20,6 @@
     "available": true,
     "url": "https://to-do-3110d.firebaseapp.com/",
     "githubUrl": "https://github.com/marshalloffutt/to-do"
-  },
-"project2":
-  {
-    "title": "Whaddup",
-    "screenshot": "https://github.com/marshalloffutt/personal-bio-site/blob/master/src/images/whaddup-pic.png?raw=true",
-    "alt": "Chatty Screenshot",
-    "description": "A group project focused on the concepts of JSON, where we created a Windows 95-themed chat application in single page format.",
-    "technologiesUsed": "HTML, Vanilla JavaScript, Bootstrap 4, AJAX, Version Control with Github",
-    "available": true,
-    "url": "#",
-    "githubUrl": "https://github.com/nss-evening-cohort-8/chatty-bottle-openers"
   },
 "project3":
   {
