@@ -1,10 +1,6 @@
-$slate: #41748D;
-$caliente: #EF3340;
-$white: #eff1f3;
-$blue: #00A3E0;
+@import '../../index.scss';
 
 #navbar {
-  // background-color: $slate;
   font-family: 'Open Sans', sans-serif;
   color: $slate;
 }
