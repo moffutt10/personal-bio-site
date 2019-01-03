@@ -15,10 +15,10 @@ const createTechnologies = () => {
           <i class="devicon-sass-original"></i>
           <i class="devicon-jquery-plain-wordmark"></i>
           <i class="devicon-react-original-wordmark"></i>
-          <i class="devicon-nodejs-plain"></i>
           <i class="devicon-git-plain-wordmark"></i>
           <i class="devicon-github-plain-wordmark"></i>
           <i class="devicon-webpack-plain-wordmark"></i>
+          <i class="devicon-visualstudio-plain"></i>
         </div>
     </div>
   `;
