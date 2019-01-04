@@ -4,12 +4,12 @@
 This is a personal bio portfolio site dedicated to me. I will be updating this repo periodically.
 
 ## Screenshots
-![homeview](./src/images/snapshot1.png)
-![about](./src/images/snapshot2.png)
-![projects](./src/images/snapshot3.png)
-![tech](./src/images/snapshot4.png)
-![blog](./src/images/snapshot5.png)
-![contact](./src/images/snapshot6.png)
+![homeview](./src/images/snap-1.png)
+![about](./src/images/snap-2.png)
+![projects](./src/images/snap-3.png)
+![tech](./src/images/snap-4.png)
+![blog](./src/images/snap-5.png)
+![contact](./src/images/snap-6.png)
 
 ## Technologies Used
 * Bootstrap
