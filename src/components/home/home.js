@@ -8,7 +8,7 @@ const createHomeView = () => {
         <h2 class="name">MARSHALL OFFUTT: {</h2>
         <h2 class="name indent"><span class="deco">Full-Stack Developer,</span></h2>
         <h2 class="name indent">Runner,</h2>
-        <h2 class="name indent">Adventurer,</h2>
+        <h2 class="name indent">Adventurer</h2>
         <h2 class="name">};</h2>
       </div>
     </div>
