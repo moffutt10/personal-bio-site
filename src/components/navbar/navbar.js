@@ -1,3 +1,5 @@
+/* eslint no-plusplus: ["error", { "allowForLoopAfterthoughts": true }] */
+
 import $ from 'jquery';
 import './navbar.scss';
 import createHomeView from '../home/home';
@@ -9,6 +11,12 @@ import createContact from '../contact/contact';
 
 const navbarEvents = () => {
   $('.nav-link').on('click', (e) => {
+    const navButtons = document.getElementsByClassName('nav-item');
+    for (let i = 0; i < navButtons.length; i++) {
+      const current = document.getElementsByClassName('active');
+      current[0].className = current[0].className.replace(' active', '');
+      e.target.className += ' active';
+    }
     if (e.target.id === 'navbar-button-home') {
       createHomeView();
     } else if (e.target.id === 'navbar-button-projects') {
@@ -33,7 +41,7 @@ const createNavbar = () => {
     </button>
     <div class="navbar-collapse collapse  w-100" id="collapsingNavbar2">
         <ul class="navbar-nav mx-auto text-center">
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" id="navbar-button-home">Home</a>
             </li>
             <li class="nav-item">
