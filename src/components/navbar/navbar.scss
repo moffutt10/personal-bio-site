@@ -10,3 +10,11 @@
   margin-left: 4px;
   margin-right: 4px;
 }
+
+.active a{
+  color: $blue !important;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: $blue !important;
+}

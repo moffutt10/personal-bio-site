@@ -23,7 +23,6 @@ const createContact = () => {
                 </a>
                 </li>
             </ul>
-            <h4 class="text-dark">Would you like to see my resume? Here you go.</h4>
         </div>
     </div>
   `;
