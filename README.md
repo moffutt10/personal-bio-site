@@ -1,7 +1,7 @@
 # My Personal Bio Site
 
 ## Description
-This is a personal bio portfolio site dedicated to me. I will be updating this repo periodically.
+This is my personal portfolio project. This project gets updated regularly as I learn new things, and complete more projects. There is also a blog feature now, so the user can read my coding-related musings should they choose to do so.
 
 ## Screenshots
 ![homeview](./src/images/snap-1.png)
@@ -10,15 +10,6 @@ This is a personal bio portfolio site dedicated to me. I will be updating this r
 ![tech](./src/images/snap-4.png)
 ![blog](./src/images/snap-5.png)
 ![contact](./src/images/snap-6.png)
-
-## Technologies Used
-* Bootstrap
-* Webpack
-* Axios
-* Firebase
-* JavaScript ES6 Modules
-* Font Awesome
-* Devicon
 
 ## How to run this app
 Note: To run this app you will need a firebase account and a new project.
