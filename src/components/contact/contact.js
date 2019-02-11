@@ -9,17 +9,17 @@ const createContact = () => {
             <ul id="things" class="list-inline m-4 d-flex container justify-content-center">
                 <li class="list-inline-item m-4">
                 <a title="LinkedIn" href="https://www.linkedin.com/in/marshalloffutt/" class="things">
-                    <i class="fab fa-linkedin fa-10x"></i>
+                    <i class="fab fa-linkedin fa-6x"></i>
                 </a>
                 </li>
                 <li class="list-inline-item m-4">
                 <a title="Twitter" href="https://twitter.com/marshalloffutt" class="things">
-                    <i class="fab fa-twitter fa-10x fa-pulse"></i>
+                    <i class="fab fa-twitter fa-6x"></i>
                 </a>
                 </li>
                 <li class="list-inline-item m-4">
                 <a title="GitHub" href="https://github.com/marshalloffutt" class="things">
-                    <i class="fab fa-github fa-10x"></i>
+                    <i class="fab fa-github fa-6x"></i>
                 </a>
                 </li>
             </ul>
