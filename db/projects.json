@@ -1,33 +1,44 @@
 {
   "project1":
   {
+    "title": "Muralville",
+    "screenshot": "https://github.com/marshalloffutt/muralville/blob/master/src/images/screenshot2.png?raw=true",
+    "alt": "Muralville screenshot",
+    "description": "Muralville is my front end capstone project at NSS. It is a Nashville-centric community-based mural finder app & collaboration project that uses the React, Sass styling, and Leaflet as a map component.",
+    "technologiesUsed": "React.js, Axios, Firebase, JavaScript, SASS, Reactstrap, Leaflet",
+    "available": true,
+    "url": "https://muralville.firebaseapp.com/",
+    "githubUrl": "https://github.com/marshalloffutt/muralville"
+  },
+  "project2":
+  {
     "title": "Dev++",
     "screenshot": "https://github.com/marshalloffutt/developer-portal/raw/master/images/screenshot1.png",
     "alt": "Developer Portal screenshot",
     "description": "This was my very first project in React! It is a tool for junior developers to keep track of learning resources they are interested in. It utilizes full CRUD methods to interact with Firebase.",
-    "technologiesUsed": "React.js, Axios, Firebase, SASS, Reactstrap",
+    "technologiesUsed": "React.js, Axios, Firebase, Sass, Reactstrap",
     "available": true,
     "url": "https://developer-portal-f10f9.firebaseapp.com/",
     "githubUrl": "https://github.com/marshalloffutt/developer-portal"
   },
-  "project2":
+  "project3":
   {
     "title": "Get Things Done",
     "screenshot": "https://github.com/marshalloffutt/to-do/raw/master/screenshots/snapshot1.png",
     "alt": "Get Things Done screenshot",
     "description": "Every developer worth their salt codes a To-Do app at some point. This one is mine. It utilizes full CRUD methods to interact with Firebase.",
-    "technologiesUsed": "Webpack, Axios, Firebase, JavaScript, ES6 Modules, SASS, Bootstrap",
+    "technologiesUsed": "Webpack, Axios, Firebase, JavaScript, ES6 Modules, Sass, Bootstrap",
     "available": true,
     "url": "https://to-do-3110d.firebaseapp.com/",
     "githubUrl": "https://github.com/marshalloffutt/to-do"
   },
-"project3":
+"project4":
   {
     "title": "Lego Builder",
     "screenshot": "https://github.com/marshalloffutt/lego-builder/raw/master/images/snapshot1.png",
     "alt": "Lego Builder main view",
     "description": "A small lego-man builder app. User can make a lego person creation, randomize a lego person, or save individual lego characters. The name of each lego creation corresponds to each lego piece selected. As user swaps out lego parts, the name will change to reflect the newly chosen piece.",
-    "technologiesUsed": "Webpack, JavaScript, ES6 Modules, Axios, Firebase, Bootstrap, SASS",
+    "technologiesUsed": "Webpack, JavaScript, ES6 Modules, Axios, Firebase, Bootstrap, Sass",
     "available": true,
     "url": "https://lego-builder-98a4e.firebaseapp.com/",
     "githubUrl": "https://github.com/marshalloffutt/lego-builder"
