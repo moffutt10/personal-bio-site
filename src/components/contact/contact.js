@@ -13,11 +13,6 @@ const createContact = () => {
                 </a>
                 </li>
                 <li class="list-inline-item m-4">
-                <a title="Twitter" href="https://twitter.com/marshalloffutt" class="things">
-                    <i class="fab fa-twitter fa-6x"></i>
-                </a>
-                </li>
-                <li class="list-inline-item m-4">
                 <a title="GitHub" href="https://github.com/marshalloffutt" class="things">
                     <i class="fab fa-github fa-6x"></i>
                 </a>
