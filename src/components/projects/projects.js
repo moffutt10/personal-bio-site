@@ -10,7 +10,7 @@ const writeProjects = (projects) => {
     <div class="container d-flex proj-card">
       <div class="info container m-2">
         <h1 class="text-dark">${project.title} </h1>
-        <h5 class="text-dark">${project.description}</h5>
+        <p class="text-dark">${project.description}</p>
         <p class="text-dark">Technologies used: ${project.technologiesUsed}</p>
         <div>
           <a class="link" href="${project.githubUrl}" target="_blank">GitHub</a>

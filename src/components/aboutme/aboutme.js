@@ -11,9 +11,24 @@ const createAboutMe = () => {
         </div>
         <div class="d-flex container-fluid flex-column mt-5 p-2">
             <h4 class="text-dark">Hi!! I'm Marshall Offutt, and I am an aspiring full-stack developer in Nashville, TN.</h4>
-            <p class="text-dark">I am currently in the 8th evening cohort at Nashville Software School, where we are learning JavaScript with the React library, and C# as our front end and back end focuses of study.</p>
-            <p class="text-dark">My background is in project management within the steel construction industry. I graduated from LSU with a degree in Construction Management. Shortly after graduation, I accepted a job in Nashville as a project manager for the steel detailing arm of a local engineering firm. After nearly a decade of working in the steel detailing industry, I have worked on over 100 projects, including the Music City Center, which had over 11,000 tons of structural steel.</p>
-            <p class="text-dark">As rewarding as my professional career in steel structures has been, my love for emerging technologies & computers ultimately informed my decision to attend Nashville Software School. It was here that I fell back in love with learning, and have challenged myself in ways I never thought imaginable. Being a developer perfectly marries these passions in my life: building, and technology.</p>
+            <p class="text-dark"> Some of my earliest
+            childhood memories were of booting up the old 486 into
+            GeoWorks, or making batch files in DOS to run my old
+            favorite computer games. And while the games themselves were
+            fun, it was in somehow getting those archaic pieces of
+            software to work on our home setup where the true joy was
+            found. It was just like solving a puzzle. That love for
+            problem-solving is part of why I chose to go into an
+            engineering-related field at LSU. There I studied
+            Construction Management and ended up working for a
+            full-service engineering firm as a project manager. After
+            nearly a decade of structural steel detailing - and after
+            managing over 100 projects - I decided I wanted to build in
+            an environment with fewer limitations, where I would have
+            more freedom in coming up with creative solutions to
+            problems. So I chose to become a software developer at
+            Nashville Software School, marrying two great passions of
+            my life: building and technology.</p>
       </div>
     </div>
   `;
