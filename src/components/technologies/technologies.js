@@ -5,12 +5,14 @@ const createTechnologies = () => {
   const domString = `
     <div class="container d-flex flex-column p-5">
         <div>
-          <h4 class="skillz">"What I do have is a very particular set of skills."</h4>
+
         </div>
         <div class="icons container d-flex flex-wrap justify-content-center">
           <i class="devicon-html5-plain-wordmark"></i>
           <i class="devicon-css3-plain-wordmark"></i>
-          <i class="devicon-javascript-plain colored"></i>
+          <i class="devicon-javascript-plain"></i>
+          <i class="devicon-csharp-plain"></i>
+          <i class="devicon-dot-net-plain-wordmark"></i>
           <i class="devicon-bootstrap-plain-wordmark"></i>
           <i class="devicon-sass-original"></i>
           <i class="devicon-jquery-plain-wordmark"></i>
@@ -18,7 +20,6 @@ const createTechnologies = () => {
           <i class="devicon-git-plain-wordmark"></i>
           <i class="devicon-github-plain-wordmark"></i>
           <i class="devicon-webpack-plain-wordmark"></i>
-          <i class="devicon-visualstudio-plain"></i>
         </div>
     </div>
   `;
