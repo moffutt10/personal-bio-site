@@ -23,5 +23,10 @@
         "title": "C# is weird",
         "Date": "March 24, 2019",
         "entry": "Coding in C# feels like swimming in the deep-end of the swimming pool. Just browsing through the many methods on the many data types in C# can be overwhelming. Microsoft has really made a mess out of all of their various libraries. On the plus side, I can certainly see the progress I am making, and that is exciting. The hardest part is knowing what methods are available to you at certain times, and that just takes some practice. A LOT of practice. At least I'm getting much better at debugging!"
+    },
+    "blog006": {
+        "title": "C# is totally not weird!",
+        "Date": "April 24, 2019",
+        "entry": "After just a few weeks of working with the syntax, it's not so much different from what we were doing with vanilla JavaScript. I've actually been amazed at all the new toys we get to play with. There is a lot here to unpack and explore, but you quickly gravitate to the methods and datatypes that are most useful to you. Lists or Dictionaries over Arrays. Decimals, floats, ints instead of numbers. And then there is Linq! While I think it is true that programming languages will teach you to not want what you don't have access to, I can certainly see the value in having been exposed to a wider set of tools. So I can honestly say I'm enjoying it. Going forward I hope to become more comfortable with all the tricks so that my workflow can become more optimized. My only gripe is that Visual Studio and SQL Server Management Studio feel too much like Windows! Perhaps I shall look into the various offerings from JetBrains."
     }
 }
