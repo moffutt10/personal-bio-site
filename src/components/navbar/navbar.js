@@ -6,7 +6,6 @@ import createHomeView from '../home/home';
 import loadProjects from '../projects/projects';
 import createTechnologies from '../technologies/technologies';
 import createAboutMe from '../aboutme/aboutme';
-import loadBlogs from '../blog/blog';
 import createContact from '../contact/contact';
 
 const navbarEvents = () => {
@@ -23,8 +22,6 @@ const navbarEvents = () => {
       loadProjects();
     } else if (e.target.id === 'navbar-button-aboutme') {
       createAboutMe();
-    } else if (e.target.id === 'navbar-button-blog') {
-      loadBlogs();
     } else if (e.target.id === 'navbar-button-technologies') {
       createTechnologies();
     } else if (e.target.id === 'navbar-button-contact') {
@@ -53,9 +50,6 @@ const createNavbar = () => {
             <li class="nav-item">
               <a class="nav-link" id="navbar-button-technologies">Technologies</a>
             </li>            
-            <li class="nav-item">
-              <a class="nav-link" id="navbar-button-blog">Blog</a>
-            </li>   
             <li class="nav-item">
               <a class="nav-link" id="navbar-button-contact">Contact</a>
             </li>   
