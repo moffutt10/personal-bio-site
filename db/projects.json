@@ -2,15 +2,46 @@
   "project1":
   {
     "title": "Muralville",
-    "screenshot": "https://github.com/marshalloffutt/muralville/blob/master/src/images/screenshot2.png?raw=true",
+    "screenshot": "https://github.com/marshalloffutt/personal-bio-site/blob/master/src/images/muralville.png?raw=true",
     "alt": "Muralville screenshot",
-    "description": "Nashville is home to hundreds of incredible murals, and Muralville is my love-letter to the artists. I wanted to make an application that utilizes a map component allowing users to find, add, and keep track of their favorite murals in Nashville in hopes of accumulating a comprehensive database for all the murals in the city. I made this application with React using a flat-data structure in Firebase. The Leaflet API is used for the map component and utilizes Esri and Bing Maps for Geosearch and autosuggest capabilities. Modals and forms were created using Reactstrap. I used Sketch to help plan the styling of Muralville, and to also edit the logos and images.",
+    "description": "Muralville, a murals finder app, is my love letter to the talented mural artists in Nashville, TN. This app allows users to find, add, and keep track of their favorite murals around the city. Built with React using a flat-data structure in Firebase. The Leaflet API was used for the map component and ESRI and Bing Maps for GeoSearch and Autosuggest capabilities. Modals and forms created using Reactstrap.",
     "technologiesUsed": "React.js, Axios, Firebase, JavaScript, Sass, Reactstrap, Leaflet",
     "available": true,
     "url": "https://muralville.firebaseapp.com/",
     "githubUrl": "https://github.com/marshalloffutt/muralville"
   },
   "project2":
+  {
+    "title": "Band ★ Aid",
+    "screenshot": "https://github.com/marshalloffutt/personal-bio-site/blob/master/src/images/bandaid.png?raw=true",
+    "alt": "Band-Aid screenshot",
+    "description": "Band Aid is my full-stack capstone at NSS. It is a networking platform to connect bands to talented musicians. It is built on ASP.NET Core using C#, Dapper, and Microsoft SQL server for scaffolding, database integration and management . Front end technologies include ReactJS, Firebase for OAuth, Axios, and Reactstrap.",
+    "technologiesUsed": "C#, ASP.NET Core, Dapper, React.js, Axios, Firebase, JavaScript, Sass, Reactstrap",
+    "available": true,
+    "githubUrl": "https://github.com/marshalloffutt/band-aid"
+  },
+  "project3":
+  {
+    "title": "Skull & Daisy",
+    "screenshot": "https://github.com/marshalloffutt/personal-bio-site/blob/master/src/images/skull-and-daisy.png?raw=true",
+    "alt": "Skull And Daisy screenshot",
+    "description": "Skull & Daisy is a storefront app built on ASP.NET Core using C#, Dapper, and Microsoft SQL Server for application scaffolding, database integration and management. My duties involved acting as Scrum Master implementing Agile development practices and providing the users and payment types models and API controllers using repository design pattern. On the front end, my primary contributions included writing authentication procedures using Firebase, implementing a seller dashboard to display sales history, and providing inventory management methods.",
+    "technologiesUsed": "C#, ASP.NET Core, Dapper, React.js, Axios, Firebase, JavaScript, Sass, Reactstrap",
+    "available": true,
+    "githubUrl": "https://github.com/skullanddaisy/SkullAndDaisy"
+  },
+  "project4":
+  {
+    "title": "Magic E8 Ball",
+    "screenshot": "https://github.com/marshalloffutt/personal-bio-site/blob/master/src/images/magic-e8-ball.png?raw=true",
+    "alt": "Magic E8 Ball screenshot",
+    "description": "Magic E8 Ball is a recruiting tool for hiring managers looking to hire junior developers. This project grew out of my desire to get more experience with React, and to explore making shapes in pure CSS.",
+    "technologiesUsed": "React.js, Axios, Firebase, JavaScript, Sass",
+    "available": true,
+    "url": "https://magic-e8-ball.firebaseapp.com/",
+    "githubUrl": "https://github.com/marshalloffutt/magic-e8-ball"
+  },
+  "project5":
   {
     "title": "Dev++",
     "screenshot": "https://github.com/marshalloffutt/developer-portal/raw/master/images/screenshot1.png",
@@ -21,7 +52,7 @@
     "url": "https://developer-portal-f10f9.firebaseapp.com/",
     "githubUrl": "https://github.com/marshalloffutt/developer-portal"
   },
-  "project3":
+  "project6":
   {
     "title": "Get Things Done",
     "screenshot": "https://github.com/marshalloffutt/to-do/raw/master/screenshots/snapshot1.png",
@@ -32,7 +63,7 @@
     "url": "https://to-do-3110d.firebaseapp.com/",
     "githubUrl": "https://github.com/marshalloffutt/to-do"
   },
-"project4":
+"project7":
   {
     "title": "Lego Builder",
     "screenshot": "https://github.com/marshalloffutt/lego-builder/raw/master/images/snapshot1.png",
