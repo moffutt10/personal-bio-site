@@ -5,7 +5,6 @@ const createTechnologies = () => {
   const domString = `
     <div class="container d-flex flex-column p-5">
         <div>
-
         </div>
         <div class="icons container d-flex flex-wrap justify-content-center">
           <i class="devicon-html5-plain-wordmark"></i>
@@ -20,6 +19,7 @@ const createTechnologies = () => {
           <i class="devicon-git-plain-wordmark"></i>
           <i class="devicon-github-plain-wordmark"></i>
           <i class="devicon-webpack-plain-wordmark"></i>
+          <i class="devicon-visualstudio-plain"></i>
         </div>
     </div>
   `;
