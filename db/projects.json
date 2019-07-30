@@ -18,6 +18,7 @@
     "description": "Band Aid is my full-stack capstone at NSS. It is a networking platform to connect bands to talented musicians. It is built on ASP.NET Core using C#, Dapper, and Microsoft SQL server for scaffolding, database integration and management . Front end technologies include ReactJS, Firebase for OAuth, Axios, and Reactstrap.",
     "technologiesUsed": "C#, ASP.NET Core, Dapper, React.js, Axios, Firebase, JavaScript, Sass, Reactstrap",
     "available": true,
+    "url": "https://github.com/marshalloffutt/band-aid",
     "githubUrl": "https://github.com/marshalloffutt/band-aid"
   },
   "project3":
@@ -28,12 +29,13 @@
     "description": "Skull & Daisy is a storefront app built on ASP.NET Core using C#, Dapper, and Microsoft SQL Server for application scaffolding, database integration and management. My duties involved acting as Scrum Master implementing Agile development practices and providing the users and payment types models and API controllers using repository design pattern. On the front end, my primary contributions included writing authentication procedures using Firebase, implementing a seller dashboard to display sales history, and providing inventory management methods.",
     "technologiesUsed": "C#, ASP.NET Core, Dapper, React.js, Axios, Firebase, JavaScript, Sass, Reactstrap",
     "available": true,
+    "url": "https://github.com/skullanddaisy/SkullAndDaisy",
     "githubUrl": "https://github.com/skullanddaisy/SkullAndDaisy"
   },
   "project4":
   {
     "title": "Magic E8 Ball",
-    "screenshot": "https://github.com/marshalloffutt/personal-bio-site/blob/master/src/images/magic-e8-ball.png?raw=true",
+    "screenshot": "https://github.com/marshalloffutt/magic-e8-ball/blob/master/src/images/snapshot2.png?raw=true",
     "alt": "Magic E8 Ball screenshot",
     "description": "Magic E8 Ball is a recruiting tool for hiring managers looking to hire junior developers. This project grew out of my desire to get more experience with React, and to explore making shapes in pure CSS.",
     "technologiesUsed": "React.js, Axios, Firebase, JavaScript, Sass",
